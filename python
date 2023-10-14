@@ -1,0 +1,9 @@
+salario = int(input("Insira o salario a receber reajuste"))
+porcentagem = int(input(f"Insira quantos % você quer analisar do valor {salario}"))
+reajuste = salario * porcentagem / 100
+
+
+print(f"valor bruto do salário é{salario}")
+print(f"{porcentagem}% do salário {salario} é {salario * porcentagem / 100}")
+print(f"O salário de {salario} com {porcentagem}% de aumento é {salario + reajuste}")
+print(f"O salário de {salario} com {porcentagem}% de desconto é {salario - reajuste}")
